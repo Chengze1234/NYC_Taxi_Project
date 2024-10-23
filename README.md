@@ -48,7 +48,6 @@ NYC_Taxi_Project/
 ├── data/                       # Folder for datasets
 │   └── yellow_tripdata_2024-01.parquet
 ├── models/                     # Folder for saving model files
-├── notebooks/                  # For Jupyter notebooks or Quarto documents (optional)
 ├── scripts/
 │   ├── data_utils.py           # Functions for data loading, cleaning, splitting
 │   └── model_utils.py          # Dataset class, model architecture, training code
