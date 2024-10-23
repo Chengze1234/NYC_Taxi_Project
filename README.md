@@ -1,12 +1,58 @@
-# NYC_Taxi_Project
-Homework4_STOR674
-# NYC Taxi Project
+# NYC Taxi Trip Fare Prediction
 
-This project uses NYC taxi trip data to train a regression model using PyTorch.
+## Dependencies
 
-## How to run the project
+To install the required dependencies, run:
 
-1. Clone the repository.
-2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+To export the dependencies, use:
+
+```bash
+pip freeze > requirements.txt
+```
+
+## How to Run the Code
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/NYC_Taxi_Project.git
+   cd NYC_Taxi_Project
+   ```
+
+2. **Download the dataset**:
+
+   Place the dataset `yellow_tripdata_2024-01.parquet` in the `data/` folder.
+
+3. **Install dependencies**:
+
    ```bash
    pip install -r requirements.txt
+   ```
+
+4. **Run the training script**:
+
+   To load the data, preprocess it, and train the model, run:
+
+   ```bash
+   python train_model.py
+   ```
+
+## Project Structure
+
+```
+NYC_Taxi_Project/
+├── data/                       # Folder for datasets
+│   └── yellow_tripdata_2024-01.parquet
+├── models/                     # Folder for saving model files
+├── notebooks/                  # For Jupyter notebooks or Quarto documents (optional)
+├── scripts/
+│   ├── data_utils.py           # Functions for data loading, cleaning, splitting
+│   └── model_utils.py          # Dataset class, model architecture, training code
+├── train_model.py              # Main script to load data, train model
+├── README.md                   # Project description and how to run the code
+└── requirements.txt            # Python dependencies
+```
