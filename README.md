@@ -27,7 +27,8 @@ pip freeze > requirements.txt
 
    Place the dataset `yellow_tripdata_2024-01.parquet` in the `data/` folder.
    This can be done by:
-    ```bash
+   
+  ```bash
   bash get_taxi.sh
    ```
 
