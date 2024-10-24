@@ -26,14 +26,18 @@ pip freeze > requirements.txt
 2. **Download the dataset**:
 
    Place the dataset `yellow_tripdata_2024-01.parquet` in the `data/` folder.
+   This can be done by:
+    ```bash
+  bash get_taxi.sh
+   ```
 
-3. **Install dependencies**:
+4. **Install dependencies**:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the training script**:
+5. **Run the training script**:
 
    To load the data, preprocess it, and train the model, run:
 
